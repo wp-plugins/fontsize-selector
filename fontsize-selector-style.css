@@ -1,0 +1,55 @@
+.font-size_sml {font-size: 11px;}
+.font-size_med {font-size: 14px;}
+.font-size_med-large {font-size: 1em;}
+.font-size_large {font-size: 18px;}
+form.fontsize-selector-form {
+position: relative;
+width: 98%;
+height: auto;
+padding: 3px 5px;
+margin: 0 auto;
+border: thin solid #bbb;
+border-radius: 2px;
+background: rgba( 235, 235, 235, .4);
+margin-bottom: .5em;
+}
+form #fontsize_select {
+padding: 3px;
+border-radius: 2px;
+float: left;
+margin-bottom: .5em;
+}
+form.fontsize-selector-form #submit {
+padding: 3px 5px;
+float: right;
+cursor: pointer;
+display: block;
+margin-bottom: 0;
+}
+form.fontsize-selector-form #submit:hover {
+background: #cffafa;
+}
+form.fontsize-selector-form h4 {
+position: relative;
+margin: 3px;
+width: 100%;
+display: block;
+font-size: 75% !important;
+padding: 0;
+}
+form.fontsize-selector-form p {
+width: 99%;
+position: relative;
+display: inline-block;
+margin-bottom: 0;
+}
+form.fontsize-selector-form:after {
+content: " ";
+clear:both;
+	display: block;
+margin-bottom: .5em;
+}
+.fontsize-fieldset {
+	border: none;
+	height: 55px;
+}
